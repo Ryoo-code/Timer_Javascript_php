@@ -2,19 +2,41 @@
 <html lang="ja">
     <head>
         <meta charset="UTF-8"/>
-        <title>ポモドーロタイマー</title>
+        <title>Pomodoro Timer</title>
+        <!-- Poppinsを読み込む -->
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
         <!-- CSSファイルを読み込むためのタグ -->
-        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="css/style.css" />
     </head>
 
     <body>
-        <h1>ポモドーロタイマー</h1>
-        <div id="timer">25:00</div>
-        <button id="strat">Start</button>
+        <h1>Pomodoro Timer</h1>
+        <!-- 時間セレクトボックス -->
+        <div class="time-select">
+        <!-- label : ユーザーに「何を選ぶのか」を説明するラベル -->
+        <label for="timeselect">時間を選択</label>
+        <!-- select : ユーザーが1つの項目を選べる「ドロップダウンメニュー」 -->
+        <select id="timeselect">
+            <!-- option：メニューの中の1つ1つの選択肢 -->
+            <option value="10">10分</option>
+            <option value="15">15分</option>
+            <option value="20">20分</option>
+            <option value="25" selected>25分</option>
+            <option value="30">30分</option>
+            <option value="35">35分</option>
+            <option value="40">40分</option>
+            <option value="45">45分</option>
+            <option value="50">50分</option>
+        </select>
+        </div>
+
+        <!-- タイマー表示部分は空にして、 -->
+        <div id="timer"></div>
+        <div id="function-btn">
+        <button id="start">Start</button>
         <button id="pause">Pause</button>
         <button id="stop">Stop</button>
-        <button id="reset">Reset</button>
-
-        <script src="js/~~~"></script>
+        </div>
+        <script src="js/script.js"></script>
     </body>
 </html>

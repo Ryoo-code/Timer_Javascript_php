@@ -1,0 +1,65 @@
+body {
+  background-color: #E0F2F1; /* ← 好きな色コードに変更 */
+}
+
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    display:flex; /*中央ぞろえ*/
+    justify-content:center;/*flex専用：横方向に中央揃え*/
+}
+
+/* classの時は、「.」から始める */
+.time-select {
+  display: flex;
+  flex-direction: row; /* 横並びに変更 */
+  align-items: center; /* 縦方向の中央揃え */
+  justify-content: center; /* 親の中で中央揃え */
+  gap: 50px; /* ラベルとセレクトの間に余白 */
+  margin-bottom: 20px;
+  font-size: 12px;
+  color: #333;
+}
+
+/* idの時は、「#」から始める */
+#timer{
+    width: 494px;
+    height: 494px;
+    background: linear-gradient(90deg, #b6edff, #87CEFA);/*background: linear-gradient(方向, 色1, 色2, ...);*/
+    border-radius: 50%; /* 丸くする */
+    display:flex; /*中央ぞろえ*/
+    align-items: center;/*flex専用：縦方向に中央揃え*/
+    justify-content:center;/*flex専用：横方向に中央揃え*/
+    font-size: 128px;
+    font-weight: bold; /*太字*/
+    color:#E0F2F1;
+    margin: 40px auto;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);/*box-shadow: X軸 Y軸 ぼかし距離 色;*/
+}
+
+#function-btn {
+  display: flex;
+  justify-content: center; /* 横方向中央寄せ */
+  align-items: center;     /* divの中の縦方向中央寄せ（高さに影響がある場合） */
+  gap: 40px;               /* ボタン同士の間隔 */
+  margin: 40px auto;       /* ブロックごと中央寄せ */
+  width: fit-content;      /* コンテンツ幅に合わせる */
+}
+
+#function-btn button { /* ボタンにのみCSSを反映させる */
+  background-color: #b6edff;
+  border: none; /* 枠線を消す */
+  border-radius: 10px;
+  padding: 10px 20px; /* ボタンの「内側の余白」を設定 */
+  font-size: 16px;
+  font-weight: bold;
+  color: #000;
+  cursor: pointer;/* マウスを重ねたときに「手のマーク」に変える */
+  transition: background-color 0.3s; /* 「背景色が変化する時に、0.3秒かけてなめらかに変える」設定 */
+}
+
+#function-btn button:hover {
+  background-color: #87CEFA; /* hoverで背景色が変わる時、ふわっと切り替わる感じになる */
+}
+
+
