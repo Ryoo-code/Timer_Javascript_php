@@ -22,3 +22,7 @@ JavaScriptとphpの基礎を勉強し、このポートフォリオで実践し�
 ## 今後のアップデート予定
 - Rev02: タイマー実行ログの保存機能
 - Rev03: 学習履歴のグラフ表示
+
+## Rev01のデザイン(Figma)
+<img width="1078" height="765" alt="image" src="https://github.com/user-attachments/assets/aa9e41c8-da01-4b15-a696-27d5efad4d61" />
+
