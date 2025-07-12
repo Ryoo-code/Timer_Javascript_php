@@ -23,6 +23,6 @@ JavaScriptとphpの基礎を勉強し、このポートフォリオで実践し�
 - Rev02: タイマー実行ログの保存機能
 - Rev03: 学習履歴のグラフ表示
 
-## Rev01のデザイン(Figma)
-<img width="647" height="459" alt="image" src="https://github.com/user-attachments/assets/aa9e41c8-da01-4b15-a696-27d5efad4d61" />
+## Rev01のWF(Figma)
+<img width="324" height="230" alt="image" src="https://github.com/user-attachments/assets/aa9e41c8-da01-4b15-a696-27d5efad4d61" />
 
