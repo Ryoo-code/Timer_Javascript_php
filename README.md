@@ -25,6 +25,7 @@ JavaScriptとphpの基礎を勉強し、このポートフォリオで実践し�
 
 ## Rev01のWF(Figma)
 <img width="324" height="230" alt="image" src="https://github.com/user-attachments/assets/aa9e41c8-da01-4b15-a696-27d5efad4d61" />
-## Rev01の実装
+
+## Rev01の実装：HTML/CSSのみ実装。JSは未実装の為、タイマー部分が空白
 <img width="404" height="223" alt="image" src="https://github.com/user-attachments/assets/5cd490cf-1a73-4954-966d-019efe2fcb12" />
 
