@@ -23,8 +23,8 @@ h1{
 
 /* idの時は、「#」から始める */
 #timer{
-    width: 494px;
-    height: 494px;
+    width: 450px;
+    height: 450px;
     background: linear-gradient(90deg, #b6edff, #87CEFA);/*background: linear-gradient(方向, 色1, 色2, ...);*/
     border-radius: 50%; /* 丸くする */
     display:flex; /*中央ぞろえ*/
