@@ -30,4 +30,4 @@ JavaScriptとphpの基礎を勉強し、このポートフォリオで実践し�
 <img src="Rev01-00.png" alt="タイマー未実装画面" width="324" height="230" />
 
 ## Rev01-01 実装:JS実装済み、タイマー表記、ボタン機能追加
-<img src="Rev01-01.png" alt="タイマー、ボタン実装" width="324" height="230" />
+<img src="Rev01-01.png" alt="タイマー、ボタン実装" width="300" height="230" />
