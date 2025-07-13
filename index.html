@@ -14,10 +14,12 @@
         <!-- 時間セレクトボックス -->
         <div class="time-select">
         <!-- label : ユーザーに「何を選ぶのか」を説明するラベル -->
-        <label for="timeselect">時間を選択</label>
+        <label for="timeselect">集中時間を選択</label>
         <!-- select : ユーザーが1つの項目を選べる「ドロップダウンメニュー」 -->
         <select id="timeselect">
             <!-- option：メニューの中の1つ1つの選択肢 -->
+            <option value="1">1分</option>
+            <option value="5">5分</option> 
             <option value="10">10分</option>
             <option value="15">15分</option>
             <option value="20">20分</option>
@@ -35,8 +37,10 @@
         <div id="function-btn">
         <button id="start">Start</button>
         <button id="pause">Pause</button>
-        <button id="stop">Stop</button>
+        <button id="reset">Reset</button>
+        <button id="rest">Rest</button>
         </div>
+        <audio id="alarm-sound" src="alarm.mp3" preload="auto"></audio> <!-- JSで使用するから、その前に読み込ませる -->
         <script src="js/script.js"></script>
     </body>
 </html>
