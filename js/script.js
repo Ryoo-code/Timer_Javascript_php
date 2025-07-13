@@ -38,7 +38,7 @@ function startTimer(mode = 'work'){ //workというデフォルト値を設定�
         if (remainingTime <= 0) {
             clearInterval(timerId);
             timerDisplay.textContent = '00:00';
-            if (mode === 'work') {
+            if (mode === 'work' || mode === 'rest') {
                 alarm.play();
             }
         }
@@ -52,6 +52,9 @@ timeSelect.addEventListener('change', updateTimerDisplayFromSelect)
 
 // Startbtnの機能を作成
 startBtn.addEventListener('click', ()=> {
+    // アラーム音が鳴っていた場合は止めて、再生位置も0に戻す
+    alarm.pause();
+    alarm.currentTime = 0;
     clearInterval(timerId)
     duration = parseInt(timeSelect.value, 10) * 60;//選択された25分という文字列を数値に変換し、秒数に
     remainingTime = duration;
