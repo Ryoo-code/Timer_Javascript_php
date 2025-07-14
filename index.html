@@ -10,7 +10,14 @@
     </head>
 
     <body>
-        <h1>Pomodoro Timer</h1>
+        <header class="site-header"> <!--見出しとハンバーガーメニューは同じ層にあるので一括りに-->
+            <h1 class="logo">Pomodoro Timer</h1> <!--h1をクラスに指定することで、別ページへのCSSの影響を避ける-->
+            <button class="menu-btn" aria-label="メニューを開く"> <!--button class="menu-btn":クリック出来るボタンの意味-->
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </header>
         <!-- 時間セレクトボックス -->
         <div class="time-select">
         <!-- label : ユーザーに「何を選ぶのか」を説明するラベル -->
