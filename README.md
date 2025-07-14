@@ -32,6 +32,13 @@ JavaScriptとphp(予定)の基礎を勉強し、このポートフォリオで�
 - Rev02: タイマー実行ログの保存機能
 - Rev03: 学習履歴のグラフ表示
 
+## 問題点
+# Rev01
+- スマホの場合、アラーム鳴らない⇒モバイルブラウザの再生ポリシーが厳しいため
+- GitHubのリンクから開くと色が違う（エクスプローラー、スマホから開いた時は問題なし）
+# Rev02
+- タイトルとハンバーガーメニューが同じ高さではない。（見た目上は合うように数値で調整）
+
 ## Rev01 WF(Figma)
 <img width="324" height="230" alt="image" src="https://github.com/user-attachments/assets/aa9e41c8-da01-4b15-a696-27d5efad4d61" />
 
