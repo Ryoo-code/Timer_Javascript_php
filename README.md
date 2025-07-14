@@ -45,5 +45,4 @@ JavaScriptとphp(予定)の基礎を勉強し、このポートフォリオで�
 <img width="371" height="260" alt="image" src="https://github.com/user-attachments/assets/ce6d878f-e064-40e1-a527-8a8f9240622e" />
 
 ## Rev02-00 実装:ハンバーガーメニュー表示のみ
-<img width="311" height="266" alt="image" src="<img width="282" height="640" alt="image" src="https://github.com/user-attachments/assets/d7eafb7b-9c33-4ace-8b85-4bd3d4baea82" />
-" />
+<img width="282" height="640" alt="image" src="https://github.com/user-attachments/assets/d7eafb7b-9c33-4ace-8b85-4bd3d4baea82" />
